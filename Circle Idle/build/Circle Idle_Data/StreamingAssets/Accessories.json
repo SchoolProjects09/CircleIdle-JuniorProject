@@ -1,0 +1,256 @@
+{
+  "accessories": {
+    "ring_of_magic": {
+      "name": "Ring of Magic",
+      "description": "Boosts magic capabilities by a fair amount.",
+      "protect": "accessory",
+      "icon": "ring_of_magic",
+      "HP": 0,
+      "SP": 30,
+      "ATK": 0,
+      "DEF": 0,
+      "MAG": 10,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "solar_pendant": {
+      "name": "Solar Pendant",
+      "description": "A pendant containing the fury of the sun.",
+      "protect": "accessory",
+      "icon": "solar_pendant",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 5,
+      "DEF": 0,
+      "MAG": 4,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "bowl_of_magic": {
+      "name": "Bowl of Magic",
+      "description": "An incantation bowl, also known as a demon bowl, is a form of protective magic.",
+      "protect": "accessory",
+      "icon": "bowl_of_magic",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 5,
+      "DEF": 0,
+      "MAG": 5,
+      "RES": 30,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "bread_of_life": {
+      "name": "Bread of Life",
+      "description": "An adequate source of nutrition. Made from flour.",
+      "protect": "accessory",
+      "icon": "bread_of_life",
+      "HP": 50,
+      "SP": 10,
+      "ATK": 0,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 5,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "doctors_prescription": {
+      "name": "Doctors Prescription",
+      "description": "A powerful magic potion able to restore a significant number of Focus Points.",
+      "protect": "accessory",
+      "icon": "doctors_prescription",
+      "HP": 0,
+      "SP": 30,
+      "ATK": 10,
+      "DEF": 0,
+      "MAG": 10,
+      "RES": 50,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "grandma_jelly": {
+      "name": "Grandma Jelly",
+      "description": "Fizzing potion. Instantly restores some energy.",
+      "protect": "accessory",
+      "icon": "grandma_jelly",
+      "HP": 60,
+      "SP": 10,
+      "ATK": 5,
+      "DEF": 0,
+      "MAG": 4,
+      "RES": 30,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "invisible_defence": {
+      "name": "Invisible Defence",
+      "description": "Create a magic barrier, increasing your damage resistances",
+      "protect": "accessory",
+      "icon": "invisible_defence",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 5,
+      "DEF": 30,
+      "MAG": 10,
+      "RES": 50,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "magic_ball": {
+      "name": "Magic Ball",
+      "description": "Predicts opponents moves, Creates effective defence moves",
+      "protect": "accessory",
+      "icon": "magic_ball",
+      "HP": 0,
+      "SP": 15,
+      "ATK": 5,
+      "DEF": 60,
+      "MAG": 0,
+      "RES": 30,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "scroll_of_wisdom": {
+      "name": "Scroll of Wisdom",
+      "description": "A crystallization of ancient wisdom, used to enchant equipment.",
+      "protect": "accessory",
+      "icon": "scroll_of_wisdom",
+      "HP": 20,
+      "SP": 20,
+      "ATK": 20,
+      "DEF": 20,
+      "MAG": 20,
+      "RES": 20,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "morning_flower": {
+      "name": "Morning Flower",
+      "description": "A powerful magic flower able to restore a significant number of Focus Points",
+      "protect": "accessory",
+      "icon": "morning_flower",
+      "HP": 0,
+      "SP": 50,
+      "ATK": 5,
+      "DEF": 30,
+      "MAG": 0,
+      "RES": 30,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "rejuvenating_mushroom": {
+      "name": "Rejuvenating Mushroom",
+      "description": "Plant a magical mushroom, provides ability to stay focused on the target",
+      "protect": "accessory",
+      "icon": "rejuvenating_mushroom",
+      "HP": 50,
+      "SP": 40,
+      "ATK": 5,
+      "DEF": 30,
+      "MAG": 0,
+      "RES": 30,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "stone_hammer": {
+      "name": "Stone Hammer",
+      "description": "Advanced tool used in crafting",
+      "protect": "accessory",
+      "icon": "stone_hammer",
+      "HP": 5,
+      "SP": 40,
+      "ATK": 30,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "small_health_potion": {
+      "name": "Small Health Potion",
+      "description": "Small Mystical Potion. Increases health.",
+      "protect": "accessory",
+      "icon": "small_health_potion",
+      "HP": 25,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "time_control": {
+      "name": "Time Control",
+      "description": "Helps to stay organized and be more efficient in crafting",
+      "protect": "accessory",
+      "icon": "time_control",
+      "HP": 5,
+      "SP": 50,
+      "ATK": 30,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 25,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    }
+  }
+}

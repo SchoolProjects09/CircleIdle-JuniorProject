@@ -1,0 +1,1229 @@
+{
+  "player": {
+    "lv1": {
+      "maxBuildings": 4,
+      "maxCharachters": 6,
+      "minPoint": 0,
+      "maxOffline": 180
+    },
+    "lv2": {
+      "maxBuildings": 6,
+      "maxCharachters": 10,
+      "minPoint": 1000,
+      "maxOffline": 240
+    },
+    "lv3": {
+      "maxBuildings": 8,
+      "maxCharachters": 14,
+      "minPoint": 2000,
+      "maxOffline": 300
+    },
+    "lv4": {
+      "maxBuildings": 9,
+      "maxCharachters": 16,
+      "minPoint": 5000,
+      "maxOffline": 360
+    },
+    "lv5": {
+      "maxBuildings": 10,
+      "maxCharachters": 20,
+      "minPoint": 10000,
+      "maxOffline": 400
+    }
+  },
+  "buildings": {
+    "forest": {
+      "name": "Forest",
+      "description": "Resource to gather wood",
+      "icon": "forest"
+    },
+    "mine": {
+      "name": "Mine",
+      "description": "Resource to gather Metals",
+      "icon": "mine"
+    },
+    "quarry": {
+      "name": "Quarry",
+      "description": "Allows the gathering of rare minerals",
+      "icon": "quarry"
+    },
+    "training_camp": {
+      "name": "Training Camp",
+      "description": "Allows for fighters to be trained",
+      "icon": "training_camp"
+    },
+    "armorsmith": {
+      "name": "Armorsmith",
+      "description": "Allows for the crafting of armor",
+      "icon": "armorsmith"
+    },
+    "weaponsmith": {
+      "name": "Weaponsmith",
+      "description": "Allows for the crafting of weapons",
+      "icon": "weaponsmith"
+    }
+  },
+  "equipment": {
+    "axe": {
+      "name": "Axe",
+      "description": "A tool to chop wood",
+      "icon": "axe",
+      "weapon": 0,
+      "armor": 0,
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "resistance": 0,
+      "speed": {
+        "wood": 100,
+        "mine": 0,
+        "smith": 0
+      }
+    },
+    "saw": {
+      "name": "Saw",
+      "description": "A tool to cut wood",
+      "icon": "saw",
+      "weapon": 0,
+      "armor": 0,
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "resistance": 0,
+      "speed": {
+        "wood": 200,
+        "mine": 0,
+        "smith": 0
+      }
+    }
+  },
+  "characters": {
+    "peasant": {
+      "name": "Peasant",
+      "description": "Basic unit to gather resources",
+      "next": [
+        "worker",
+        "fighter"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "peasant",
+          "health": 18,
+          "attack": 2,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 25,
+            "mine": 25,
+            "smith": 25
+          },
+          "maxpoints": 100,
+          "cost": {
+            "wood": 100,
+            "gold": 0,
+            "iron": 0
+          }
+        },
+        "lv2": {
+          "icon": "peasant",
+          "health": 18,
+          "attack": 5,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 50,
+            "mine": 50,
+            "smith": 50
+          },
+          "maxpoints": 200,
+          "cost": {
+            "wood": 150,
+            "gold": 0,
+            "iron": 0
+          }
+        },
+        "lv3": {
+          "icon": "peasant",
+          "health": 18,
+          "attack": 8,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 75,
+            "mine": 75,
+            "smith": 75
+          },
+          "maxpoints": 300,
+          "cost": {
+            "wood": 200,
+            "gold": 50,
+            "iron": 50
+          }
+        }
+      }
+    },
+    "worker": {
+      "name": "Worker",
+      "description": "Worker to gather resources at higher rates",
+      "next": [
+        "miner",
+        "woodcutter",
+        "builder"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "worker",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 100,
+            "mine": 100,
+            "smith": 100
+          },
+          "maxpoints": 500,
+          "cost": {
+            "wood": 175,
+            "gold": 25,
+            "iron": 25
+          }
+        },
+        "lv2": {
+          "icon": "worker",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 125,
+            "mine": 125,
+            "smith": 125
+          },
+          "maxpoints": 750,
+          "cost": {
+            "wood": 250,
+            "gold": 50,
+            "iron": 50
+          }
+        },
+        "lv3": {
+          "icon": "worker",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1000,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "miner": {
+      "name": "Miner",
+      "description": "Specific field worker to gather Precious metals at higher rates",
+      "next": [
+        "prospector"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "miner",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 250,
+            "smith": 150
+          },
+          "maxpoints": 1200,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "miner",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 300,
+            "smith": 150
+          },
+          "maxpoints": 1500,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "miner",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 350,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "prospector": {
+      "name": "Prospector",
+      "description": "Gathers fewer resources than a miner, but gathers more rare resources",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "prospector",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 250,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "prospector",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 300,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "prospector",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 350,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "woodcutter": {
+      "name": "Woodcutter",
+      "description": "A specialized worker for gathering wood",
+      "next": [
+        "botanist"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "woodcutter",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 250,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "woodcutter",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 300,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "woodcutter",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 350,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "botanist": {
+      "name": "Botanist",
+      "description": "Gathers fewer resources than a Woodcutter, but gathers more rare resources",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "botanist",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 250,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "botanist",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 300,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "botanist",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 350,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "builder": {
+      "name": "Builder",
+      "description": "A specialized worker for constructing buildings",
+      "next": [
+        "smith"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "builder",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "builder",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "builder",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "smith": {
+      "name": "Smith",
+      "description": "A specialized worker for forging weapons and armor",
+      "next": [
+        "alchemist"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "smith",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 250
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "smith",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 300
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "smith",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 350
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "alchemist": {
+      "name": "Alchemist",
+      "description": "A specialized worker for creating alchemic concoctions",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "alchemist",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 250
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "alchemist",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 300
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "alchemist",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 350
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "fighter": {
+      "name": "Fighter",
+      "description": "A baisc melee fighter",
+      "next": [
+        "soldier",
+        "apprentice",
+        "archer"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "fighter",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "fighter",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "fighter",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "soldier": {
+      "name": "Soldier",
+      "description": "A stronger melee fighter that fights better in groups",
+      "next": [
+        "warrior"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "soldier",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "soldier",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "soldier",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "warrior": {
+      "name": "Warrior",
+      "description": "An advanced front line fighter",
+      "next": [
+        "knight"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "warrior",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "soldier",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "soldier",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "knight": {
+      "name": "Knight",
+      "description": "An advanced melee fighter with significantly imporved defenses",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "knight",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "knight",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "knight",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "apprentice": {
+      "name": "Apprentice",
+      "description": "A basic mage with minimal magical ability",
+      "next": [
+        "mage"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "apprentice",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "apprentice",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "apprentice",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "mage": {
+      "name": "Mage",
+      "description": "A mage with signifcant magical might",
+      "next": [
+        "healer"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "mage",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "mage",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "mage",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "healer": {
+      "name": "Healer",
+      "description": "A spellcaster capable of healing their allies",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "healer",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "healer",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "healer",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    },
+    "archer": {
+      "name": "Archer",
+      "description": "A basic ranged fighter",
+      "next": [
+        "none"
+      ],
+      "level": {
+        "lv1": {
+          "icon": "archer",
+          "health": 18,
+          "attack": 12,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv2": {
+          "icon": "archer",
+          "health": 18,
+          "attack": 15,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        },
+        "lv3": {
+          "icon": "archer",
+          "health": 18,
+          "attack": 18,
+          "defense": 0,
+          "magic": 0,
+          "resistance": 0,
+          "speed": {
+            "wood": 150,
+            "mine": 150,
+            "smith": 150
+          },
+          "maxpoints": 1750,
+          "cost": {
+            "wood": 300,
+            "gold": 100,
+            "iron": 75
+          }
+        }
+      }
+    }
+  }
+}

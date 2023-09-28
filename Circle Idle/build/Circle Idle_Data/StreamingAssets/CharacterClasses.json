@@ -1,0 +1,450 @@
+{
+  "characters": {
+    "peasant": {
+      "name": "Peasant",
+      "description": "Basic unit to gather resources",
+      "classLvl": 0,
+      "maxLvl": 3,
+      "next": [
+        "worker",
+        "fighter"
+      ],
+      "ability": {
+        "name": "Master of None",
+        "description": "An unskilled worker with no advantages. But if you max out their level, maybe you'll see them grow...?"
+      },
+      "baseHealth": 10,
+      "growHealth": 1.25,
+      "baseAttack": 5.5,
+      "growAttack": 0.5,
+      "baseDefense": 5,
+      "growDefense": 0.5,
+      "baseMagic": 3,
+      "growMagic": 0.25,
+      "baseResistance": 3,
+      "growResistance": 0.25,
+      "baseSpeed": 4,
+      "growSpeed": 0.66
+    },
+    "worker": {
+      "name": "Worker",
+      "description": "Worker to gather resources at higher rates",
+      "classLvl": 1,
+      "maxLvl": 5,
+      "next": [
+        "miner",
+        "woodcutter",
+        "builder"
+      ],
+      "ability": {
+        "name": "Hard Work",
+        "description": "Increases the rate of job completion by 10% for all jobs.",
+        "type": "all",
+        "bonus": 1.1
+      },
+      "baseHealth": 12,
+      "growHealth": 1.75,
+      "baseAttack": 8,
+      "growAttack": 1.25,
+      "baseDefense": 8,
+      "growDefense": 1.25,
+      "baseMagic": 6.2,
+      "growMagic": 0.4,
+      "baseResistance": 8,
+      "growResistance": 0.75,
+      "baseSpeed": 6,
+      "growSpeed": 0.7
+    },
+    "miner": {
+      "name": "Miner",
+      "description": "Specific field worker to gather Precious metals at higher rates",
+      "classLvl": 2,
+      "maxLvl": 10,
+      "next": [
+        "prospector"
+      ],
+      "ability": {
+        "name": "Rock and Stone",
+        "description": "Increases production rate by 30% at all mining sites.",
+        "type": "mine",
+        "bonus": 1.3
+      },
+      "baseHealth": 15,
+      "growHealth": 1.9,
+      "baseAttack": 8.8,
+      "growAttack": 1.4,
+      "baseDefense": 12.75,
+      "growDefense": 1.75,
+      "baseMagic": 2,
+      "growMagic": 0.25,
+      "baseResistance": 4,
+      "growResistance": 0.75,
+      "baseSpeed": 7,
+      "growSpeed": 0.8
+    },
+    "woodcutter": {
+      "name": "Woodcutter",
+      "description": "A specialized worker for gathering wood",
+      "classLvl": 2,
+      "maxLvl": 10,
+      "next": [
+        "botanist"
+      ],
+      "ability": {
+        "name": "I'm a Lumberjack",
+        "description": "Increases production rate by 30% from forests, sleeping all night and working all day.",
+        "type": "forest",
+        "bonus": 1.3
+      },
+      "baseHealth": 15,
+      "growHealth": 1.9,
+      "baseAttack": 12.75,
+      "growAttack": 1.75,
+      "baseDefense": 8.8,
+      "growDefense": 1.4,
+      "baseMagic": 2,
+      "growMagic": 0.25,
+      "baseResistance": 4,
+      "growResistance": 0.75,
+      "baseSpeed": 7,
+      "growSpeed": 0.8
+    },
+    "builder": {
+      "name": "Builder",
+      "description": "A specialized worker for constructing buildings",
+      "classLvl": 2,
+      "maxLvl": 10,
+      "next": [
+        "smith"
+      ],
+      "ability": {
+        "name": "Archetect",
+        "description": "Increases the rate of constructing buildings by 50%.",
+        "type": "construction",
+        "bonus": 1.5
+      },
+      "baseHealth": 20,
+      "growHealth": 1.15,
+      "baseAttack": 8,
+      "growAttack": 0.75,
+      "baseDefense": 8,
+      "growDefense": 0.75,
+      "baseMagic": 2.5,
+      "growMagic": 0.25,
+      "baseResistance": 4.5,
+      "growResistance": 0.3,
+      "baseSpeed": 6.5,
+      "growSpeed": 0.66
+    },
+    "prospector": {
+      "name": "Prospector",
+      "description": "Gathers fewer resources than a miner, but gathers more rare resources",
+      "classLvl": 3,
+      "maxLvl": 15,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "Mine Diamonds",
+        "description": "Increases the rate of obtaining rare materials from mining sites. However, productivity is decreased by 20%.",
+        "type": "mine",
+        "bonus": 0.8
+      },
+      "baseHealth": 15,
+      "growHealth": 1.9,
+      "baseAttack": 12.8,
+      "growAttack": 1.4,
+      "baseDefense": 10.75,
+      "growDefense": 1.75,
+      "baseMagic": 4,
+      "growMagic": 0.4,
+      "baseResistance": 8,
+      "growResistance": 0.75,
+      "baseSpeed": 6.5,
+      "growSpeed": 0.45
+    },
+    "botanist": {
+      "name": "Botanist",
+      "description": "Gathers fewer resources than a Woodcutter, but gathers more rare resources",
+      "classLvl": 3,
+      "maxLvl": 15,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "Botany Bay",
+        "description": "Increases the rate of obtaining rare materials from forests. However, productivity is decreased by 20%.",
+        "type": "forest",
+        "bonus": 0.8
+      },
+      "baseHealth": 15,
+      "growHealth": 1.9,
+      "baseAttack": 8.8,
+      "growAttack": 1.4,
+      "baseDefense": 10.75,
+      "growDefense": 1.75,
+      "baseMagic": 4,
+      "growMagic": 0.4,
+      "baseResistance": 8,
+      "growResistance": 0.75,
+      "baseSpeed": 6.5,
+      "growSpeed": 0.45
+    },
+    "smith": {
+      "name": "Smith",
+      "description": "A specialized worker for forging weapons and armor",
+      "classLvl": 3,
+      "maxLvl": 15,
+      "next": [
+        "alchemist"
+      ],
+      "ability": {
+        "name": "Master Blacksmith",
+        "description": "Increases production from smithing weapons and armor by 50%.",
+        "type": "smith",
+        "bonus": 1.5
+      },
+      "baseHealth": 22,
+      "growHealth": 1.2,
+      "baseAttack": 10.4,
+      "growAttack": 1.2,
+      "baseDefense": 8.8,
+      "growDefense": 1.2,
+      "baseMagic": 6.4,
+      "growMagic": 0.6,
+      "baseResistance": 10.4,
+      "growResistance": 0.8,
+      "baseSpeed": 7,
+      "growSpeed": 0.8
+    },
+    "alchemist": {
+      "name": "Alchemist",
+      "description": "A specialized worker for creating alchemic concoctions",
+      "classLvl": 4,
+      "maxLvl": 25,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "Potion Seller",
+        "description": "Increases production of their potions by 50%. Ask for their strongest potions when heading into battle... Maybe.",
+        "type": "alchemy",
+        "bonus": 1.5
+      },
+      "baseHealth": 30,
+      "growHealth": 1.8,
+      "baseAttack": 6.2,
+      "growAttack": 0.7,
+      "baseDefense": 4.8,
+      "growDefense": 0.6,
+      "baseMagic": 12.8,
+      "growMagic": 1.1,
+      "baseResistance": 16.7,
+      "growResistance": 1.6,
+      "baseSpeed": 4,
+      "growSpeed": 0.66
+    },
+    "fighter": {
+      "name": "Fighter",
+      "description": "A basic melee fighter",
+      "classLvl": 1,
+      "maxLvl": 5,
+      "next": [
+        "soldier",
+        "apprentice",
+        "archer"
+      ],
+      "ability": {
+        "name": "Guts",
+        "description": "Deals 10% extra damage during combat."
+      },
+      "baseHealth": 20.5,
+      "growHealth": 2.25,
+      "baseAttack": 12.6,
+      "growAttack": 1.8,
+      "baseDefense": 12.2,
+      "growDefense": 1.8,
+      "baseMagic": 8,
+      "growMagic": 0.75,
+      "baseResistance": 8,
+      "growResistance": 0.75,
+      "baseSpeed": 5,
+      "growSpeed": 0.66
+    },
+    "soldier": {
+      "name": "Soldier",
+      "description": "A stronger melee fighter that fights better in groups",
+      "classLvl": 2,
+      "maxLvl": 10,
+      "next": [
+        "warrior"
+      ],
+      "ability": {
+        "name": "Solid State Squad",
+        "description": "Increases damage dealt by 5% for each physical fighter in the party."
+      },
+      "baseHealth": 25.5,
+      "growHealth": 2.75,
+      "baseAttack": 16.5,
+      "growAttack": 1.8,
+      "baseDefense": 14.5,
+      "growDefense": 1.4,
+      "baseMagic": 10,
+      "growMagic": 0.8,
+      "baseResistance": 10,
+      "growResistance": 0.8,
+      "baseSpeed": 6.5,
+      "growSpeed": 0.8
+    },
+    "apprentice": {
+      "name": "Apprentice",
+      "description": "A basic mage with minimal magical ability",
+      "classLvl": 2,
+      "maxLvl": 10,
+      "next": [
+        "mage"
+      ],
+      "ability": {
+        "name": "Studious",
+        "description": "Increases magic damage dealt by 10%."
+      },
+      "baseHealth": 10,
+      "growHealth": 0.75,
+      "baseAttack": 10,
+      "growAttack": 0.75,
+      "baseDefense": 10,
+      "growDefense": 0.75,
+      "baseMagic": 10,
+      "growMagic": 0.75,
+      "baseResistance": 10,
+      "growResistance": 0.75,
+      "baseSpeed": 5,
+      "growSpeed": 0.66
+    },
+    "archer": {
+      "name": "Archer",
+      "description": "A basic ranged fighter",
+      "classLvl": 2,
+      "maxLvl": 25,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "Backline Support",
+        "description": "Increases evasion and critical hit rate by 20%."
+      },
+      "baseHealth": 16.5,
+      "growHealth": 1.2,
+      "baseAttack": 18.2,
+      "growAttack": 1.6,
+      "baseDefense": 12.8,
+      "growDefense": 0.9,
+      "baseMagic": 6,
+      "growMagic": 0.75,
+      "baseResistance": 6,
+      "growResistance": 0.75,
+      "baseSpeed": 10.2,
+      "growSpeed": 0.95
+    },
+    "warrior": {
+      "name": "Warrior",
+      "description": "An advanced front line fighter",
+      "classLvl": 3,
+      "maxLvl": 15,
+      "next": [
+        "knight"
+      ],
+      "ability": {
+        "name": "Blitz",
+        "description": "Increases damage dealt by 50% when below 30% health. No sleep, no rest for the wicked."
+      },
+      "baseHealth": 40.8,
+      "growHealth": 2.6,
+      "baseAttack": 18.4,
+      "growAttack": 1.9,
+      "baseDefense": 12.2,
+      "growDefense": 1.3,
+      "baseMagic": 6,
+      "growMagic": 0.6,
+      "baseResistance": 6,
+      "growResistance": 0.6,
+      "baseSpeed": 8.3,
+      "growSpeed": 0.9
+    },
+    "mage": {
+      "name": "Mage",
+      "description": "A mage with signifcant magical might",
+      "classLvl": 3,
+      "maxLvl": 15,
+      "next": [
+        "healer"
+      ],
+      "ability": {
+        "name": "Mind Mastery",
+        "description": "Increases magic damage by 20%, and regenerates 20% of SP between battles."
+      },
+      "baseHealth": 12,
+      "growHealth": 0.75,
+      "baseAttack": 3.5,
+      "growAttack": 0.5,
+      "baseDefense": 3,
+      "growDefense": 0.5,
+      "baseMagic": 14.5,
+      "growMagic": 1.8,
+      "baseResistance": 12.5,
+      "growResistance": 1.6,
+      "baseSpeed": 7,
+      "growSpeed": 0.8
+    },
+    "knight": {
+      "name": "Knight",
+      "description": "An advanced melee fighter with significantly imporved defenses",
+      "classLvl": 4,
+      "maxLvl": 25,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "Sturdy",
+        "description": "Decreases damage taken from attacks by 20%."
+      },
+      "baseHealth": 35.2,
+      "growHealth": 1.75,
+      "baseAttack": 10.8,
+      "growAttack": 1.2,
+      "baseDefense": 26.9,
+      "growDefense": 2.25,
+      "baseMagic": 6,
+      "growMagic": 0.6,
+      "baseResistance": 6,
+      "growResistance": 0.6,
+      "baseSpeed": 3.5,
+      "growSpeed": 0.5
+    },
+    "healer": {
+      "name": "Healer",
+      "description": "A spellcaster capable of healing their allies",
+      "classLvl": 4,
+      "maxLvl": 25,
+      "next": [
+        "none"
+      ],
+      "ability": {
+        "name": "You Can (Not) Redo",
+        "description": "Restores the health of all allies by 20% between battles."
+      },
+      "baseHealth": 30.5,
+      "growHealth": 1.75,
+      "baseAttack": 3,
+      "growAttack": 0.5,
+      "baseDefense": 5.5,
+      "growDefense": 0.75,
+      "baseMagic": 12.5,
+      "growMagic": 1.25,
+      "baseResistance": 10,
+      "growResistance": 0.75,
+      "baseSpeed": 8.5,
+      "growSpeed": 0.9
+    }
+  }
+}

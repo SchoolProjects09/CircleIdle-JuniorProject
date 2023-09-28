@@ -1,0 +1,44 @@
+{
+  "player": {
+    "maxBuildings": 4,
+    "maxCharachters": 6,
+    "maxInventory": 20,
+    "minPoint": 0,
+    "maxOffline": 180,
+    "lv1": {
+      "maxBuildings": 4,
+      "maxCharachters": 6,
+      "maxInventory": 20,
+      "minPoint": 0,
+      "maxOffline": 180
+    },
+    "lv2": {
+      "maxBuildings": 6,
+      "maxCharachters": 10,
+      "maxInventory": 30,
+      "minPoint": 1000,
+      "maxOffline": 240
+    },
+    "lv3": {
+      "maxBuildings": 8,
+      "maxCharachters": 14,
+      "maxInventory": 40,
+      "minPoint": 2000,
+      "maxOffline": 300
+    },
+    "lv4": {
+      "maxBuildings": 9,
+      "maxCharachters": 16,
+      "maxInventory": 50,
+      "minPoint": 5000,
+      "maxOffline": 360
+    },
+    "lv5": {
+      "maxBuildings": 10,
+      "maxCharachters": 20,
+      "maxInventory": 60,
+      "minPoint": 10000,
+      "maxOffline": 400
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "resources": {
+    "lumber": {
+      "name": "Lumber",
+      "class": "lumber",
+      "unlockLevel": 1,
+      "finishedProgress": 200
+    },
+    "oak": {
+      "name": "Oak",
+      "class": "oak",
+      "unlockLevel": 2,
+      "finishedProgress": 400
+    },
+    "hickory": {
+      "name": "Hickory",
+      "class": "hickory",
+      "unlockLevel": 3,
+      "finishedProgress": 600
+    },
+    "gold": {
+      "name": "Gold",
+      "class": "gold",
+      "unlockLevel": 1,
+      "finishedProgress": 400
+    },
+    "Iron": {
+      "name": "Iron",
+      "class": "iron",
+      "unlockLevel": 2,
+      "finishedProgress": 800
+    },
+    "Copper": {
+      "name": "Copper",
+      "class": "copper",
+      "unlockLevel": 3,
+      "finishedProgress": 1000
+    },
+    "Stone": {
+      "name": "Stone",
+      "class": "stone",
+      "unlockLevel": 1,
+      "finishedProgress": 300
+    },
+    "Ore": {
+      "name": "Ore",
+      "class": "ore",
+      "unlockLevel": 2,
+      "finishedProgress": 600
+    },
+    "Gems": {
+      "name": "Gems",
+      "class": "gems",
+      "unlockLevel": 3,
+      "finishedProgress": 900
+    }
+  }
+}

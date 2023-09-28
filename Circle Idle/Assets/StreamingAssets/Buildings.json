@@ -1,0 +1,125 @@
+{
+  "buildings": {
+    "forest": {
+      "name": "Forest",
+      "description": "Resource to gather wood",
+      "icon": "forest",
+      "type": "resource",
+      "craft": [ "lumber", "oak", "hickory" ],
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints":  1000,
+      "buildProgress": 5000,
+      "completeProgress": 1000
+    },
+    "mine": {
+      "name": "Mine",
+      "description": "Resource to gather Metals",
+      "icon": "mine",
+      "type": "resource",
+      "craft": [ "gold", "iron", "copper" ],
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints": 2000,
+      "buildProgress": 5000,
+      "completeProgress": 1000
+    },
+    "quarry": {
+      "name": "Quarry",
+      "description": "Allows the gathering of rare minerals",
+      "icon": "quarry",
+      "type": "resource",
+      "craft": [ "stone", "ore", "gems" ],
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints": 3000,
+      "buildProgress": 10000,
+      "completeProgress": 2000
+    },
+    "training_camp": {
+      "name": "Training Camp",
+      "description": "Allows for fighters to be trained",
+      "icon": "trainingcamp",
+      "type": "training",
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints": 4000,
+      "buildProgress": 5000,
+      "completeProgress": 1000
+    },
+    "armorsmith": {
+      "name": "Armorsmith",
+      "description": "Allows for the crafting of armor",
+      "icon": "armorsmith",
+      "type": "armor",
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints": 4000,
+      "buildProgress": 5000,
+      "recipies": [
+        {
+          "product": "iron_armor",
+          "recipe": [
+            {
+              "material": "iron",
+              "amount": 10
+            }
+          ],
+          "completeProgress": 12000
+        }
+      ]
+    },
+    "weaponsmith": {
+      "name": "Weaponsmith",
+      "description": "Allows for the crafting of weapons",
+      "icon": "weaponsmith",
+      "type": "weapon",
+      "levelup": {
+        "lumber": 500,
+        "gold": 500
+      },
+      "constructionPoints": 5000,
+      "buildProgress": 5000,
+      "recipies": [
+        {
+          "product": "iron_axe",
+          "recipe": [
+            {
+              "material": "iron",
+              "amount": 5
+            },
+            {
+              "material": "wood",
+              "amount": 1
+            }
+          ],
+          "completeProgress": 8000
+        },
+        {
+          "product": "iron_saw",
+          "recipe": [
+            {
+              "material": "iron",
+              "amount": 5
+            },
+            {
+              "material": "wood",
+              "amount": 1
+            }
+          ],
+          "completeProgress": 8000
+        }
+      ]
+    }
+  }
+}

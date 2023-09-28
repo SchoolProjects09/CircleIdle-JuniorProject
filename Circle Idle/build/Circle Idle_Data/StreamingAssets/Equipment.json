@@ -1,0 +1,432 @@
+{
+  "equipment": {
+    "leather_helmet": {
+      "name": "Leather Hood",
+      "description": "",
+      "protect": "head",
+      "icon": "leather_hood",
+      "HP": 4,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 200,
+        "iron": 125
+      },
+      "finishedProgress": 1200
+    },
+    "leather_chestplate": {
+      "name": "Leather Chestplate",
+      "description": "",
+      "protect": "body",
+      "icon": "leather_chestplate",
+      "HP": 4,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 105,
+        "iron": 185
+      },
+      "finishedProgress": 1200
+    },
+    "leather_leggings": {
+      "name": "Leather Leggings",
+      "description": "",
+      "protect": "legs",
+      "icon": "leather_leggings",
+      "HP": 4,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "stone": 70,
+        "iron": 150
+      },
+      "finishedProgress": 1200
+    },
+    "leather_boots": {
+      "name": "Leather Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "leather_boots",
+      "HP": 4,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "copper_helmet": {
+      "name": "Copper Helmet",
+      "description": "",
+      "protect": "head",
+      "icon": "copper_helmet",
+      "HP": 6,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 4,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "iron": 250,
+        "copper": 150
+      },
+      "finishedProgress": 1200
+    },
+    "copper_chestplate": {
+      "name": "Copper Chestplate",
+      "description": "",
+      "protect": "body",
+      "icon": "copper_chestplate",
+      "HP": 6,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 4,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "oak": 75
+      },
+      "finishedProgress": 1200
+    },
+    "copper_leggings": {
+      "name": "Copper Leggings",
+      "description": "",
+      "protect": "legs",
+      "icon": "copper_leggings",
+      "HP": 6,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 4,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "copper_boots": {
+      "name": "Copper Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "copper_boots",
+      "HP": 6,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 4,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "iron_helmet": {
+      "name": "Iron Helmet",
+      "description": "Cheap yet effective defensive equipment.",
+      "protect": "head",
+      "icon": "iron_helmet",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "iron_chestplate": {
+      "name": "Iron Chestplate",
+      "description": "",
+      "protect": "body",
+      "icon": "iron_chestplate",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "iron_leggings": {
+      "name": "Iron Leggings",
+      "description": "",
+      "protect": "legs",
+      "icon": "iron_leggings",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "iron_boots": {
+      "name": "Iron Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "iron_boots",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "steel_helmet": {
+      "name": "Steel Helmet",
+      "description": "Sturdy defensive equipment often worn by knights.",
+      "protect": "head",
+      "icon": "steel_helmet",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "steel_chestplate": {
+      "name": "Steel Chestplate",
+      "description": "",
+      "protect": "body",
+      "icon": "steel_chestplate",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "steel_leggings": {
+      "name": "Steel Leggings",
+      "description": "",
+      "protect": "legs",
+      "icon": "steel_leggings",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "steel_boots": {
+      "name": "Steel Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "steel_boots",
+      "HP": 10,
+      "SP": 0,
+      "ATK": 0,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "cloth_helmet": {
+      "name": "Cloth Hood",
+      "description": "",
+      "protect": "head",
+      "icon": "cloth_hood",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 0,
+      "DEF": 1,
+      "MAG": 4,
+      "RES": 6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "cloth_robe": {
+      "name": "Cloth Robe",
+      "description": "Not very defensive, but soft and easy to move around in.",
+      "protect": "body",
+      "icon": "cloth_robe",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 0,
+      "DEF": 1,
+      "MAG": 4,
+      "RES": 6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "cloth_pants": {
+      "name": "Cloth Pants",
+      "description": "",
+      "protect": "legs",
+      "icon": "cloth_pants",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 0,
+      "DEF": 1,
+      "MAG": 4,
+      "RES": 6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "cloth_boots": {
+      "name": "Cloth Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "cloth_boots",
+      "HP": 0,
+      "SP": 10,
+      "ATK": 0,
+      "DEF": 1,
+      "MAG": 4,
+      "RES": 6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "starlit_helmet": {
+      "name": "Starlit Hood",
+      "description": "",
+      "protect": "head",
+      "icon": "starlit_hood",
+      "HP": 0,
+      "SP": 20,
+      "ATK": 0,
+      "DEF": 3,
+      "MAG": 12,
+      "RES": 10,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "starlit_robe": {
+      "name": "Starlit Robe",
+      "description": "A robe infused with the power of stars.",
+      "protect": "body",
+      "icon": "starlit_robe",
+      "HP": 0,
+      "SP": 20,
+      "ATK": 0,
+      "DEF": 3,
+      "MAG": 12,
+      "RES": 10,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 1200
+    },
+    "starlit_leggings": {
+      "name": "Starlit Leggings",
+      "description": "",
+      "protect": "legs",
+      "icon": "starlit_leggings",
+      "HP": 0,
+      "SP": 20,
+      "ATK": 0,
+      "DEF": 3,
+      "MAG": 12,
+      "RES": 10,
+      "recipe": {
+        "gold": 500,
+        "copper": 250,
+        "iron": 185
+      },
+      "finishedProgress": 1200
+    },
+    "starlit_boots": {
+      "name": "Starlit Boots",
+      "description": "",
+      "protect": "feet",
+      "icon": "starlit_boots",
+      "HP": 0,
+      "SP": 20,
+      "ATK": 0,
+      "DEF": 3,
+      "MAG": 12,
+      "RES": 10,
+      "recipe": {
+        "gold": 5000,
+        "copper": 2500,
+        "iron": 1750
+      },
+      "finishedProgress": 1200
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "weapons": {
+    "flint_axe": {
+      "name": "Flint Axe",
+      "description": "A crudely made tool for chopping wood.",
+      "icon": "flint_axe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 5,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "wood",
+      "bonus": 1.1,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 120
+    },
+    "flint_spear": {
+      "name": "Flint Spear",
+      "description": "A crudely made weapon with a long reach.",
+      "icon": "flint_spear",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 4,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 120
+    },
+    "rusted_sword": {
+      "name": "Rusted Sword",
+      "description": "An iron sword covered in rust.",
+      "icon": "rusted_sword",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 6,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 120
+    },
+    "stone_hammer": {
+      "name": "Stone Hammer",
+      "description": "",
+      "icon": "stone_hammer",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 2,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "build",
+      "bonus": 1.1,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 150
+    },
+    "flint_pickaxe": {
+      "name": "Flint Pickaxe",
+      "description": "",
+      "icon": "flint_pickaxe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 1,
+      "DEF": 1,
+      "MAG": 0,
+      "RES": 0,
+      "type": "stone",
+      "bonus": 1.1,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 150
+    },
+    "wooden_staff": {
+      "name": "Wooden Staff",
+      "description": "The power of nature, in the palm of your hand.",
+      "icon": "wood_staff",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 1,
+      "DEF": 0,
+      "MAG": 5,
+      "RES": 2,
+      "type": "staff",
+      "bonus": 1.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 130
+    },
+    "copper_axe": {
+      "name": "Copper Axe",
+      "description": "A tool for chopping wood.",
+      "icon": "copper_axe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 8,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "wood",
+      "bonus": 1.3,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 200
+    },
+    "copper_pickaxe": {
+      "name": "Copper Pickaxe",
+      "description": "A basic tool for mining stone. Can also be used in self-defense.",
+      "icon": "copper_pickaxe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 3,
+      "DEF": 2,
+      "MAG": 0,
+      "RES": 0,
+      "type": "stone",
+      "bonus": 1.3,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 210
+    },
+    "copper_sword": {
+      "name": "Copper Sword",
+      "description": "A simple weapon for soldiers and aspiring heroes.",
+      "icon": "copper_sword",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 10,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.4,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 250
+    },
+    "copper_dagger": {
+      "name": "Copper Dagger",
+      "description": "",
+      "icon": "copper_dagger",
+      "HP": 0,
+      "SP": 6,
+      "ATK": 4,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.4,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 200
+    },
+    "copper_spear": {
+      "name": "Copper Spear",
+      "description": "A simple but effective staple for the frontline and home defense.",
+      "icon": "copper_spear",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 6,
+      "DEF": 4,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.4,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 225
+    },
+    "copper_hammer": {
+      "name": "Copper Hammer",
+      "description": "",
+      "icon": "copper_hammer",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 4,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "build",
+      "bonus": 1.3,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 275
+    },
+    "copper_staff": {
+      "name": "Copper Staff",
+      "description": "",
+      "icon": "copper_staff",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 2,
+      "DEF": 0,
+      "MAG": 8,
+      "RES": 4,
+      "type": "staff",
+      "bonus": 1.5,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 265
+    },
+    "iron_axe": {
+      "name": "Iron Axe",
+      "description": "A tool for chopping wood. Also makes an effective weapon.",
+      "icon": "iron_axe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 12,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "wood",
+      "bonus": 1.5,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 320
+    },
+    "iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "description": "A basic tool for mining stone. Can also be used in self-defense.",
+      "icon": "iron_pickaxe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 5,
+      "DEF": 5,
+      "MAG": 0,
+      "RES": 0,
+      "type": "stone",
+      "bonus": 1.5,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 320
+    },
+    "iron_sword": {
+      "name": "Iron Sword",
+      "description": "A simple weapon for soldiers and aspiring heroes.",
+      "icon": "iron_sword",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 16,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 330
+    },
+    "iron_dagger": {
+      "name": "Iron Dagger",
+      "description": "",
+      "icon": "iron_dagger",
+      "HP": 0,
+      "SP": 8,
+      "ATK": 10,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 300
+    },
+    "iron_spear": {
+      "name": "Iron Spear",
+      "description": "A simple but effective staple for the frontline and home defense.",
+      "icon": "iron_spear",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 10,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 360
+    },
+    "iron_hammer": {
+      "name": "Iron Hammer",
+      "description": "",
+      "icon": "iron_hammer",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 6,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "build",
+      "bonus": 1.5,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 360
+    },
+    "iron_staff": {
+      "name": "Iron Staff",
+      "description": "",
+      "icon": "iron_staff",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 3,
+      "DEF": 0,
+      "MAG": 12,
+      "RES": 6,
+      "type": "staff",
+      "bonus": 1.6,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 370
+    },
+    "steel_axe": {
+      "name": "Steel Axe",
+      "description": "A refined tool for chopping wood.",
+      "icon": "steel_axe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 18,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "wood",
+      "bonus": 1.7,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 360
+    },
+    "steel_pickaxe": {
+      "name": "Steel Pickaxe",
+      "description": "A basic tool for mining stone. Can also be used in self-defense.",
+      "icon": "steel_pickaxe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 10,
+      "DEF": 6,
+      "MAG": 0,
+      "RES": 0,
+      "type": "stone",
+      "bonus": 1.7,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 360
+    },
+    "steel_sword": {
+      "name": "Steel Sword",
+      "description": "A weapon for soldiers and aspiring heroes.",
+      "icon": "steel_sword",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 24,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.8,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 380
+    },
+    "steel_dagger": {
+      "name": "Steel Dagger",
+      "description": "",
+      "icon": "steel_dagger",
+      "HP": 0,
+      "SP": 12,
+      "ATK": 14,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.8,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 365
+    },
+    "steel_spear": {
+      "name": "Steel Spear",
+      "description": "An effective frontline weapon.",
+      "icon": "steel_spear",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 14,
+      "DEF": 8,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 1.8,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 350
+    },
+    "steel_hammer": {
+      "name": "Steel Hammer",
+      "description": "",
+      "icon": "steel_hammer",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 10,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "build",
+      "bonus": 1.7,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 380
+    },
+    "steel_staff": {
+      "name": "Steel Staff",
+      "description": "",
+      "icon": "steel_staff",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 4,
+      "DEF": 0,
+      "MAG": 18,
+      "RES": 10,
+      "type": "staff",
+      "bonus": 1.8,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 375
+    },
+    "mithril_axe": {
+      "name": "Mithril Axe",
+      "description": "An axe enchanted to chop down trees.",
+      "icon": "mithril_axe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 26,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 6,
+      "type": "wood",
+      "bonus": 2.0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 400
+    },
+    "mithril_pickaxe": {
+      "name": "Mithril Pickaxe",
+      "description": "",
+      "icon": "mithril_pickaxe",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 14,
+      "DEF": 8,
+      "MAG": 0,
+      "RES": 6,
+      "type": "stone",
+      "bonus": 2.0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 415
+    },
+    "mithril_sword": {
+      "name": "Mithril Sword",
+      "description": "A mighty blade forged from the rarest metal.",
+      "icon": "mithril_sword",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 32,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "melee",
+      "bonus": 2.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 475
+    },
+    "mithril_dagger": {
+      "name": "Mithril Dagger",
+      "description": "",
+      "icon": "mithril_dagger",
+      "HP": 0,
+      "SP": 16,
+      "ATK": 22,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 6,
+      "type": "melee",
+      "bonus": 2.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 420
+    },
+    "mithril_spear": {
+      "name": "Mithril Spear",
+      "description": "",
+      "icon": "mithril_spear",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 20,
+      "DEF": 12,
+      "MAG": 0,
+      "RES": 6,
+      "type": "melee",
+      "bonus": 2.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 500
+    },
+    "mithril_hammer": {
+      "name": "Mithril Hammer",
+      "description": "",
+      "icon": "mithril_hammer",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 16,
+      "DEF": 0,
+      "MAG": 0,
+      "RES": 0,
+      "type": "build",
+      "bonus": 2.0,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 540
+    },
+    "mithril_staff": {
+      "name": "Mithril Staff",
+      "description": "A staff capable of channeling the mightiest spells.",
+      "icon": "mithril_staff",
+      "HP": 0,
+      "SP": 0,
+      "ATK": 6,
+      "DEF": 0,
+      "MAG": 24,
+      "RES": 20,
+      "type": "staff",
+      "bonus": 2.2,
+      "recipe": {
+        "gold": 5,
+        "copper": 10,
+        "iron": 5
+      },
+      "finishedProgress": 530
+    }
+    }
+}
